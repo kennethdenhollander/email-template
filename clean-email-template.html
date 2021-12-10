@@ -1,0 +1,145 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>Clean HTML e-mail Template</title>
+
+        <style>
+            body {
+                margin: 0;
+                background-color: #f8f8ff;
+                color: #787878;
+                font-family: sans-serif;
+                box-sizing: border-box;
+                -webkit-font-smoothing: antialiased;
+                -ms-text-size-adjust: 100%;
+                -webkit-text-size-adjust: 100%;
+            }
+
+            table {
+                box-sizing: border-box;
+                border-collapse: separate;
+                border: 0;
+                width: 100%;
+            }
+
+            td {
+                display: table-cell;
+            }
+
+            .main {
+                border-radius: 6px;
+                max-width: 640px;
+                margin: 48px auto 0;
+                padding: 48px;
+                background-color: white;
+                box-shadow: 0 0 30px rgb(0 0 0 / 0.05)
+            }
+
+            @media only screen and (max-width: 620px) {
+                .main {
+                    margin: 0;
+                    padding: 32px;
+                    box-shadow: none;
+                }
+            }
+
+            hr {
+                margin: 32px 0;
+                border: 0;
+                border-top: 1px solid #f0f0f0;
+            }
+
+            /* Typography */
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6 {
+                margin-top: 0;
+                color: black;
+                line-height: 1.5;
+            }
+
+            p {
+                margin-bottom: 16px;
+                font-size: 16px;
+                font-weight: normal;
+                line-height: 1.75;
+            }
+
+            a {
+                text-decoration: none;
+            }
+
+            strong {
+                color: #6a6a6a;
+            }
+
+            /* Buttons */
+            .btn {
+                box-sizing: border-box;
+                padding: 14px 20px;
+                margin-bottom: 16px;
+                width: auto;
+                border-radius: 32px;
+                background-color: #e8345e;
+                color: white;
+                text-decoration: none;
+            }
+
+            .btn a {
+                color: white;
+            }
+
+            /* Footer */
+            .company-details {
+                box-sizing: border-box;
+                margin-top: 32px;
+                margin-bottom: 0;
+                color: #838383;
+                font-size: 14px;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <table cellpadding="0" cellspacing="0" class="body">
+            <tr>
+                <td class="container">
+                    <div class="main">
+                        <h1>Lorem ipsum dolor sit amet dolor maecenas iaculis facilisis netus diam litora potenti ultrices nunc</h1>
+                        <hr>
+                        <p>Beste <strong>{{ Name }}</strong>,</p>
+                        <p>
+                            Lorem ipsum dolor sit amet ornare ipsum lobortis phasellus quis nostra condimentum malesuada inceptos lectus duis senectus ultrices arcu blandit litora leo tortor odio fusce pharetra mauris dui hendrerit platea maximus pellentesque porttitor class consequat facilisis velit ad enim adipiscing turpis urna tristique donec elit metus netus letius eu ut lacinia sodales scelerisque
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet sociosqu semper viverra praesent mi lacus dictumst congue nulla himenaeos volutpat quis elementum vehicula sit commodo ullamcorper per tristique ligula
+                        </p>
+                        <hr>
+                        <h2>Lorem ipsum dolor sit amet netus purus conubia nam curabitur mauris.</h2>
+                        <table role="presentation" border="0" cellpadding="0" cellspacing="0" class="btn btn-primary">
+                            <tbody>
+                                <tr>
+                                    <td align="left">
+                                        <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                                            <tbody>
+                                            <tr>
+                                                <td> <a href="https://www.google.com" target="_blank">Lorem ipsum dolor sit</a> </td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p class="company-details"><strong>Bedrijfsnaam</strong>, Straatnaam 123, 1234 AB Plaatsnaam</p>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
